@@ -35,7 +35,7 @@
                     <div id="list_container">
                         <?php 
                             // including the config file
-                            include('config.php');
+                            include('cnfg.php');
                             $pdo = connect();
                             
                             // list_users : this file displays the list of users in a table view
